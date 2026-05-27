@@ -23,7 +23,7 @@ pwd: /data/tools/mySienna_diag
 
 ==== persistent_carparams ====
 -- /data/params/d/CarParamsPersistent --
-TOYOTA_SIENNA_4TH_GEN
+TOYOTA_SIENNA_TSS25_PLUS
 toyota
 [REDACTED_VIN]
 [REDACTED_DEVICE_ID]
@@ -44,8 +44,8 @@ toyota
 8821F3301500
 toyota
 -- /data/params/d/CarParamsSPPersistent --
-/data/openpilot/sunnypilot/neural_network_data/neural_network_lateral_control/TOYOTA_SIENNA_4TH_GEN.json
-TOYOTA_SIENNA_4TH_GEN
+/data/openpilot/sunnypilot/neural_network_data/neural_network_lateral_control/TOYOTA_SIENNA_TSS25_PLUS.json
+TOYOTA_SIENNA_TSS25_PLUS
 
 ==== disk ====
 Filesystem      Size  Used Avail Use% Mounted on

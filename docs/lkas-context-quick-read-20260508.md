@@ -7,7 +7,7 @@ This quick read captures the strongest current interpretation of the short `fing
 ## Main Signals
 
 - fingerprint context was active
-- `CarParamsPersistent` identified the vehicle as `TOYOTA_SIENNA_4TH_GEN`
+- `CarParamsPersistent` identified the vehicle as `TOYOTA_SIENNA_TSS25_PLUS`
 - `SecOCKey` was missing in the observed context
 - repeated `SecOC synchronization MAC mismatch` behavior appeared
 - `SECOC_SYNCHRONIZATION` validity faults appeared
@@ -22,4 +22,3 @@ This sample is best treated as:
 ## Why It Matters
 
 It strengthens the interpretation that some failure modes are not caused first by control mapping, but by secure/auth state not being accepted.
-

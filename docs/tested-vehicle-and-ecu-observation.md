@@ -10,7 +10,7 @@ This public note records the non-sensitive vehicle-side identification details t
 - Model: `Sienna`
 - Model Year: `2024`
 - Platform label in the software context:
-  - `TOYOTA_SIENNA_4TH_GEN`
+  - `TOYOTA_SIENNA_TSS25_PLUS`
 
 ## ECU Identification Observation
 
