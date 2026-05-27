@@ -1,0 +1,28 @@
+{
+  "sample": {
+    "sample_id": "city_20260418_transition_settle_tail",
+    "path": "D:\\Temp\\20260312\\raw_can_logs\\20260418\\raw_can_logs\\toyota_seg_IGN_ON_20260418_181012_007.ndjson",
+    "regime": "city_transition_settle_tail"
+  },
+  "variants": [
+    {
+      "name": "baseline",
+      "base_slew": 175.0,
+      "low_band_limit": null,
+      "low_band_boost": 1.0
+    },
+    {
+      "name": "low_band_catchup_4p50",
+      "base_slew": 175.0,
+      "low_band_limit": 100.0,
+      "low_band_boost": 4.5
+    },
+    {
+      "name": "low_band_catchup_5p50",
+      "base_slew": 175.0,
+      "low_band_limit": 100.0,
+      "low_band_boost": 5.5
+    }
+  ],
+  "output_dir": "/mnt/d/Codex/toyota-sienna-tsk-analysis/analysis-output/transition_settle_residual_breakdown"
+}

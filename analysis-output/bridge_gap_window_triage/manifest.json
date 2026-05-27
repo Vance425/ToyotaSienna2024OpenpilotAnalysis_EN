@@ -1,0 +1,11 @@
+{
+  "window_ms": 15000,
+  "step_ms": 5000,
+  "candidates": [
+    "D:\\Temp\\20260312\\raw_can_logs\\20260426\\raw_can_logs\\toyota_all_20260426_045606_007.ndjson",
+    "D:\\Temp\\20260312\\raw_can_logs\\20260426\\raw_can_logs\\toyota_seg_IGN_ON_20260426_045640_014.ndjson",
+    "D:\\Temp\\20260312\\raw_can_logs\\20260426\\raw_can_logs\\toyota_all_20260426_051051_010.ndjson",
+    "D:\\Temp\\20260312\\raw_can_logs\\20260426\\raw_can_logs\\toyota_seg_IGN_ON_20260426_051136_020.ndjson"
+  ],
+  "output_dir": "/mnt/d/Codex/toyota-sienna-tsk-analysis/analysis-output/bridge_gap_window_triage"
+}
