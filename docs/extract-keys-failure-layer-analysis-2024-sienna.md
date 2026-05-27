@@ -17,6 +17,10 @@ The strongest current reading is:
 ## What Appeared To Succeed
 
 - target ECU responded
+- application-side identification returned:
+  - `8965B4514000`
+- bootloader-side identification returned:
+  - `\x02!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`
 - session switching progressed
 - `SecurityAccess` returned success
 - payload upload progressed
@@ -36,6 +40,7 @@ It is better read as:
 
 - old layout assumptions no longer match `2024 Sienna`
 - old parser offsets likely no longer describe the real structure
+- the bootloader response is reachable, but the returned bootloader identification content is filler-like rather than a normal version string
 
 ## Practical Implication
 
@@ -45,4 +50,3 @@ If the direct branch is reopened, the first priorities are:
 2. verify the structure layout
 3. verify the payload is reading the intended memory region
 4. verify the parser model
-

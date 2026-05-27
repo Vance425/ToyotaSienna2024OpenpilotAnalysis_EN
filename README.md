@@ -48,6 +48,7 @@ This public edition focuses on four lines of work:
 - [Virtual TSK Spec v2](./docs/VIRTUAL_TSK_SPEC_v2.md)
 - [Final Frame Role Map](./docs/final-frame-role-map.md)
 - [TSK-Nearest Ladder](./docs/tsk-nearest-ladder-entry-to-anchor.md)
+- [Tested Vehicle And ECU Observation](./docs/tested-vehicle-and-ecu-observation.md)
 - [SecOC Steering Validation Milestone](./docs/secoc-20260522-steering-lka-key-validation.md)
 - [2024 Sienna Extract-Keys Failure Layer Analysis](./docs/extract-keys-failure-layer-analysis-2024-sienna.md)
 - [20260509 Session 3 Bridge-Tier Summary](./docs/session-review-20260509-session3-bridge-tier-summary.md)
