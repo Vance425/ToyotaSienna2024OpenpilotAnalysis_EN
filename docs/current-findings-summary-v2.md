@@ -15,6 +15,7 @@ Use it as the main navigation page for:
 
 - `TSK` is treated as confirmed at the project level.
 - `2024 Toyota Sienna` lateral operation with `C3X` is treated as working in the field.
+- `2024 Toyota Sienna` longitudinal operation with `C3X` is treated as working in the field.
 - The project is no longer blocked on proving whether the passive `TSK-nearest` path exists.
 - The project is now blocked on secure/auth repeatability and implementation closure.
 
@@ -38,6 +39,8 @@ The strongest current control-side anchor remains:
 
 - `0x260`
 
+At the vehicle level, longitudinal operation with `C3X` is now treated as working in the field.
+
 The strongest replay-backed control branch remains:
 
 - `decode_mode = no_b1_flip`
@@ -47,6 +50,7 @@ The strongest replay-backed control branch remains:
 Primary reference:
 
 - [Openpilot Control-Side Working Note](./openpilot-control-side-working-note.md)
+- [Longitudinal Control Confirmed Update](./longitudinal-control-confirmed-update.md)
 
 ## Strongest Lifecycle Anchors
 
@@ -99,8 +103,8 @@ Primary references:
 
 - [Research Update 2026-05-25](./research-update-20260525.md)
 - [Current Conclusion 2026-05-25](./current-conclusion-20260525.md)
+- [Longitudinal Control Confirmed Update](./longitudinal-control-confirmed-update.md)
 - [Post-SecOC-Key Remaining Checklist](./post-secoc-key-remaining-checklist.md)
 - [Implementation Next-Step Plan](./implementation-next-step-plan.md)
 - [Included Representative Logs](./included-logs.md)
 - [Public References Map](./public-references-map.md)
-

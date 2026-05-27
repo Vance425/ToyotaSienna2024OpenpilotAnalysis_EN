@@ -25,6 +25,7 @@ This public edition focuses on four lines of work:
 
 - `TSK` is treated as confirmed at the project level.
 - `2024 Toyota Sienna` lateral operation with `C3X` is treated as working in the field.
+- `2024 Toyota Sienna` longitudinal operation with `C3X` is treated as working in the field.
 - The passive backbone has converged around:
   - `0x116`
   - `0x131`
@@ -67,4 +68,3 @@ This public edition focuses on four lines of work:
 - Raw private IPs, raw key values, and key fingerprints are intentionally omitted.
 - Some source references remain intentionally labeled as local-only in the underlying research, but this public edition does not rely on them for navigation.
 - This repository should not be read as proof that all secure/auth details are fully closed.
-

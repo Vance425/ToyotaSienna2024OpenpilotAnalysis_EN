@@ -15,6 +15,7 @@ Turn the current `2024 Toyota Sienna + comma 3X` research into a reproducible an
 ### Control-Side Findings
 
 - `0x260` is the strongest current control-side anchor.
+- `C3X` longitudinal operation is now treated as working in the field on `2024 Sienna`.
 - The strongest replay-backed control-side branch remains:
   - `no_b1_flip + identity + higher slew`
 - The strongest city `transition / settle` local replay rule remains:
@@ -50,6 +51,7 @@ Still missing relative to `190101`:
 
 - stable bring-up sequence
 - bounded acceptance testing
+- repeatable longitudinal success / near-failure capture
 - fault handling and recovery
 - repeatable log capture for success and near-failure runs
 
@@ -60,4 +62,3 @@ Still missing relative to `190101`:
 3. [TSK-Nearest Ladder](./docs/tsk-nearest-ladder-entry-to-anchor.md)
 4. [SecOC Steering Validation Milestone](./docs/secoc-20260522-steering-lka-key-validation.md)
 5. [Post-SecOC-Key Remaining Checklist](./docs/post-secoc-key-remaining-checklist.md)
-
