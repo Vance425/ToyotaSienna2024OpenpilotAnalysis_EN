@@ -86,7 +86,10 @@ PROFILES = {
   },
 }
 
-SEED_KEY_SECRET = bytes.fromhex("f05f36b7d78c03e24ab4faef2a57d044")
+SEED_KEY_SECRET_HEX = os.environ.get("SECOC_SEED_KEY_SECRET_HEX", "")
+if not SEED_KEY_SECRET_HEX:
+  raise RuntimeError("public edition requires SECOC_SEED_KEY_SECRET_HEX to be set explicitly")
+SEED_KEY_SECRET = bytes.fromhex(SEED_KEY_SECRET_HEX)
 DID_201_KEY = b"\x00" * 16
 DID_202_IV = b"\x00" * 16
 APP_DID_FALLBACK = 0xF181

@@ -19,7 +19,7 @@ from Crypto.Cipher import AES
 from Crypto.Hash import CMAC
 
 
-SECRET_DEFAULT = "f05f36b7d78c03e24ab4faef2a57d044"
+SECRET_DEFAULT = None
 ZERO_16 = "00" * 16
 CRC_DATA_END = 0xFEC
 CRC_BLOCK_END = 0xFF0
@@ -56,6 +56,8 @@ def replace_exact(buf: bytearray, old: bytes, new: bytes, label: str) -> list[in
 
 
 def patch_payload(args: argparse.Namespace) -> dict:
+  if not args.secret:
+    raise ValueError("public edition requires --secret to be supplied explicitly")
   secret = bytes.fromhex(args.secret)
   did_key = bytes.fromhex(args.key)
   iv = bytes.fromhex(args.iv)
@@ -119,7 +121,8 @@ def build_parser() -> argparse.ArgumentParser:
   parser.add_argument("--old-end", type=parse_int, default=0xFEBE6FF4)
   parser.add_argument("--new-start", type=parse_int, default=0xFEBE6000)
   parser.add_argument("--new-end", type=parse_int, default=0xFEBE8000)
-  parser.add_argument("--secret", default=SECRET_DEFAULT)
+  parser.add_argument("--secret", default=SECRET_DEFAULT,
+                      help="16-byte hex secret. Omitted from the public edition; supply explicitly.")
   parser.add_argument("--key", default=ZERO_16)
   parser.add_argument("--iv", default=ZERO_16)
   return parser
